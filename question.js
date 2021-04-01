@@ -13,6 +13,6 @@ let question3 = {
     text: "To be free or not to be?",
     type: moneyLife.freewill
 }
-console.log(handleQuestion(question1)) //should print "how does the social construction of money work?"
-console.log(handleQuestion(question2)) //should print "how does the social construction of money work?"
-console.log(handleQuestion(question3)) //should print "Is free will real or just an illusis
+handleQuestion(question1) //should print "how does the social construction of money work?"
+handleQuestion(question2) //should print "how does the social construction of money work?"
+handleQuestion(question3) //should print "Is free will real or just an illusis
